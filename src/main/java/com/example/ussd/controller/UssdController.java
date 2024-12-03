@@ -33,12 +33,12 @@ public class UssdController {
             sessionData.setCurrentMenu(currentMenu);
             sessionDataRepository.save(sessionData);
             return UssdService.menu.get("main");
-        } else if ("1".equals(input) && "0".equals(newRequest) && "main".equals(currentMenu)) {
+        } else if ("1".equals(input) && "main".equals(currentMenu)) {
             currentMenu = "voice";
             sessionData.setCurrentMenu(currentMenu);
             sessionDataRepository.save(sessionData);
             return UssdService.menu.get("voice");
-        } else if ("1".equals(input) && "0".equals(newRequest) && "voice".equals(currentMenu)) {
+        } else if ("1".equals(input)  && "voice".equals(currentMenu)) {
             currentMenu = "voice1";
             sessionData.setCurrentMenu(currentMenu);
             sessionDataRepository.save(sessionData);
@@ -47,4 +47,5 @@ public class UssdController {
             return UssdService.menu.get("");
         }
     }
+
 }

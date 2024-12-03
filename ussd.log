@@ -1,56 +1,64 @@
-2024-12-02T00:35:15.208+02:00  WARN 30503 --- [USSD] [HikariPool-5 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-5 - Retrograde clock change detected (housekeeper delta=29s831ms), soft-evicting connections from pool.
-2024-12-02T01:18:19.888+02:00  WARN 30503 --- [USSD] [HikariPool-5 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-5 - Thread starvation or clock leap detected (housekeeper delta=15m34s353ms).
-2024-12-02T01:33:49.652+02:00  WARN 30503 --- [USSD] [HikariPool-5 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-5 - Thread starvation or clock leap detected (housekeeper delta=15m29s766ms).
-2024-12-02T01:49:18.933+02:00  WARN 30503 --- [USSD] [HikariPool-5 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-5 - Thread starvation or clock leap detected (housekeeper delta=15m29s281ms).
-2024-12-02T02:04:49.068+02:00  WARN 30503 --- [USSD] [HikariPool-5 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-5 - Thread starvation or clock leap detected (housekeeper delta=15m30s135ms).
-2024-12-02T02:20:18.745+02:00  WARN 30503 --- [USSD] [HikariPool-5 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-5 - Thread starvation or clock leap detected (housekeeper delta=15m29s677ms).
-2024-12-02T02:35:48.157+02:00  WARN 30503 --- [USSD] [HikariPool-5 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-5 - Thread starvation or clock leap detected (housekeeper delta=15m29s412ms).
-2024-12-02T02:51:17.347+02:00  WARN 30503 --- [USSD] [HikariPool-5 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-5 - Thread starvation or clock leap detected (housekeeper delta=15m29s190ms).
-2024-12-02T03:03:52.649+02:00  WARN 30503 --- [USSD] [HikariPool-5 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-5 - Thread starvation or clock leap detected (housekeeper delta=12m35s301ms).
-2024-12-02T03:19:22.220+02:00  WARN 30503 --- [USSD] [HikariPool-5 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-5 - Thread starvation or clock leap detected (housekeeper delta=15m29s572ms).
-2024-12-02T03:34:51.732+02:00  WARN 30503 --- [USSD] [HikariPool-5 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-5 - Thread starvation or clock leap detected (housekeeper delta=15m29s512ms).
-2024-12-02T03:50:21.150+02:00  WARN 30503 --- [USSD] [HikariPool-5 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-5 - Thread starvation or clock leap detected (housekeeper delta=15m29s418ms).
-2024-12-02T04:03:42.128+02:00  WARN 30503 --- [USSD] [HikariPool-5 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-5 - Thread starvation or clock leap detected (housekeeper delta=13m20s978ms).
-2024-12-02T05:04:43.413+02:00  WARN 30503 --- [USSD] [HikariPool-5 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-5 - Thread starvation or clock leap detected (housekeeper delta=1h1m1s251ms).
-2024-12-02T05:04:44.348+02:00  WARN 30503 --- [USSD] [RMI TCP Connection(73)-127.0.0.1] javax.management.remote.misc             : The server has decided to close this client connection.
-2024-12-02T05:32:04.682+02:00  WARN 30503 --- [USSD] [HikariPool-5 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-5 - Thread starvation or clock leap detected (housekeeper delta=26m50s682ms).
-2024-12-02T06:05:56.876+02:00  WARN 30503 --- [USSD] [HikariPool-5 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-5 - Thread starvation or clock leap detected (housekeeper delta=33m52s193ms).
-2024-12-02T06:15:07.425+02:00  WARN 30503 --- [USSD] [HikariPool-5 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-5 - Thread starvation or clock leap detected (housekeeper delta=9m10s547ms).
-2024-12-02T06:16:10.733+02:00  INFO 30503 --- [USSD] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2024-12-02T06:16:10.760+02:00  INFO 30503 --- [USSD] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2024-12-02T06:16:10.819+02:00  INFO 30503 --- [USSD] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-12-02T06:16:10.843+02:00  INFO 30503 --- [USSD] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
-2024-12-02T06:16:10.882+02:00  INFO 30503 --- [USSD] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
-2024-12-02T06:16:14.945+02:00  INFO 41483 --- [USSD] [restartedMain] com.example.ussd.UssdApplication         : Starting UssdApplication using Java 23.0.1 with PID 41483 (/Users/kirengasarah/Documents/GitHub/USSD/target/classes started by kirengasarah in /Users/kirengasarah/Documents/GitHub/USSD)
-2024-12-02T06:16:14.947+02:00 DEBUG 41483 --- [USSD] [restartedMain] com.example.ussd.UssdApplication         : Running with Spring Boot v3.4.0, Spring v6.2.0
-2024-12-02T06:16:14.948+02:00  INFO 41483 --- [USSD] [restartedMain] com.example.ussd.UssdApplication         : No active profile set, falling back to 1 default profile: "default"
-2024-12-02T06:16:15.236+02:00  INFO 41483 --- [USSD] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2024-12-02T06:16:15.236+02:00  INFO 41483 --- [USSD] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2024-12-02T06:16:16.753+02:00  INFO 41483 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2024-12-02T06:16:16.756+02:00  INFO 41483 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-2024-12-02T06:16:16.781+02:00  INFO 41483 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16 ms. Found 0 JDBC repository interfaces.
-2024-12-02T06:16:16.805+02:00  INFO 41483 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2024-12-02T06:16:16.806+02:00  INFO 41483 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-12-02T06:16:16.814+02:00  INFO 41483 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
-2024-12-02T06:16:16.837+02:00  INFO 41483 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2024-12-02T06:16:16.841+02:00  INFO 41483 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2024-12-02T06:16:16.915+02:00  INFO 41483 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 Redis repository interfaces.
-2024-12-02T06:16:17.367+02:00  WARN 41483 --- [USSD] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [annotationActionEndpointMapping] is declared through a non-static factory method on that class; consider declaring it as static instead.
-2024-12-02T06:16:17.415+02:00  INFO 41483 --- [USSD] [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
-2024-12-02T06:16:17.876+02:00  INFO 41483 --- [USSD] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2024-12-02T06:16:17.894+02:00  INFO 41483 --- [USSD] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-12-02T06:16:17.894+02:00  INFO 41483 --- [USSD] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
-2024-12-02T06:16:17.940+02:00  INFO 41483 --- [USSD] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-12-02T06:16:17.940+02:00  INFO 41483 --- [USSD] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2703 ms
-2024-12-02T06:16:18.138+02:00  INFO 41483 --- [USSD] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-12-02T06:16:18.233+02:00  INFO 41483 --- [USSD] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
-2024-12-02T06:16:18.273+02:00  INFO 41483 --- [USSD] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-12-02T06:16:18.584+02:00  INFO 41483 --- [USSD] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-12-02T06:16:18.624+02:00  INFO 41483 --- [USSD] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-12-02T06:16:19.206+02:00  INFO 41483 --- [USSD] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@28133344
-2024-12-02T06:16:19.207+02:00  INFO 41483 --- [USSD] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-12-02T06:16:19.287+02:00  WARN 41483 --- [USSD] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2024-12-02T06:16:19.309+02:00  INFO 41483 --- [USSD] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2024-12-03T01:00:02.721+02:00  WARN 45848 --- [USSD] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h1m1s794ms).
+2024-12-03T01:55:16.352+02:00  WARN 45848 --- [USSD] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=55m13s630ms).
+2024-12-03T02:00:52.996+02:00  WARN 45848 --- [USSD] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m36s645ms).
+2024-12-03T03:01:57.380+02:00  WARN 45848 --- [USSD] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h1m4s122ms).
+2024-12-03T03:24:16.592+02:00  WARN 45848 --- [USSD] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=22m18s938ms).
+2024-12-03T03:40:16.573+02:00  WARN 45848 --- [USSD] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m29s355ms).
+2024-12-03T03:55:45.963+02:00  WARN 45848 --- [USSD] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m29s391ms).
+2024-12-03T04:27:32.869+02:00  WARN 45848 --- [USSD] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=11m10s739ms).
+2024-12-03T04:43:02.748+02:00  WARN 45848 --- [USSD] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m29s879ms).
+2024-12-03T04:56:55.970+02:00  WARN 45848 --- [USSD] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=13m53s222ms).
+2024-12-03T05:13:25.879+02:00  WARN 45848 --- [USSD] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m29s898ms).
+2024-12-03T05:28:55.245+02:00  WARN 45848 --- [USSD] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m29s366ms).
+2024-12-03T05:59:24.330+02:00  WARN 45848 --- [USSD] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=30m29s85ms).
+2024-12-03T06:11:00.181+02:00  WARN 45848 --- [USSD] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=11m35s851ms).
+2024-12-03T06:14:37.305+02:00  WARN 45848 --- [USSD] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m37s124ms).
+2024-12-03T06:16:30.142+02:00  WARN 45848 --- [USSD] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m22s820ms).
+2024-12-03T06:23:24.954+02:00  WARN 45848 --- [USSD] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m24s801ms).
+2024-12-03T06:38:54.441+02:00  WARN 45848 --- [USSD] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m29s487ms).
+2024-12-03T07:09:23.199+02:00  WARN 45848 --- [USSD] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=30m28s758ms).
+2024-12-03T07:24:57.638+02:00  WARN 45848 --- [USSD] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m34s439ms).
+2024-12-03T07:40:26.974+02:00  WARN 45848 --- [USSD] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m29s336ms).
+2024-12-03T08:11:52.256+02:00  WARN 45848 --- [USSD] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=30m55s263ms).
+2024-12-03T08:19:25.833+02:00  WARN 45848 --- [USSD] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m3s576ms).
+2024-12-03T08:45:37.398+02:00  WARN 45848 --- [USSD] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=26m11s565ms).
+2024-12-03T09:15:18.626+02:00  INFO 45848 --- [USSD] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-03T09:15:18.689+02:00  INFO 45848 --- [USSD] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2024-12-03T09:15:18.907+02:00  INFO 45848 --- [USSD] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-03T09:15:18.943+02:00  INFO 45848 --- [USSD] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-03T09:15:18.958+02:00  INFO 45848 --- [USSD] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-12-03T10:24:01.866+02:00  INFO 1777 --- [USSD] [restartedMain] com.example.ussd.UssdApplication         : Starting UssdApplication using Java 23.0.1 with PID 1777 (/Users/kirengasarah/Documents/GitHub/USSD/target/classes started by kirengasarah in /Users/kirengasarah/Documents/GitHub/USSD)
+2024-12-03T10:24:01.868+02:00 DEBUG 1777 --- [USSD] [restartedMain] com.example.ussd.UssdApplication         : Running with Spring Boot v3.4.0, Spring v6.2.0
+2024-12-03T10:24:01.870+02:00  INFO 1777 --- [USSD] [restartedMain] com.example.ussd.UssdApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-12-03T10:24:01.981+02:00  INFO 1777 --- [USSD] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-03T10:24:01.982+02:00  INFO 1777 --- [USSD] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-03T10:24:02.861+02:00  INFO 1777 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-12-03T10:24:02.864+02:00  INFO 1777 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-12-03T10:24:02.898+02:00  INFO 1777 --- [USSD] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.ussd.repository.SessionDataRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-12-03T10:24:02.899+02:00  INFO 1777 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27 ms. Found 0 JDBC repository interfaces.
+2024-12-03T10:24:02.910+02:00  INFO 1777 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-12-03T10:24:02.912+02:00  INFO 1777 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-03T10:24:03.105+02:00  INFO 1777 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 185 ms. Found 1 JPA repository interface.
+2024-12-03T10:24:03.132+02:00  INFO 1777 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-12-03T10:24:03.135+02:00  INFO 1777 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-12-03T10:24:03.165+02:00  INFO 1777 --- [USSD] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.ussd.repository.SessionDataRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-12-03T10:24:03.166+02:00  INFO 1777 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2024-12-03T10:24:03.607+02:00  WARN 1777 --- [USSD] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [annotationActionEndpointMapping] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2024-12-03T10:24:03.663+02:00  INFO 1777 --- [USSD] [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2024-12-03T10:24:03.984+02:00  INFO 1777 --- [USSD] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-03T10:24:04.000+02:00  INFO 1777 --- [USSD] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-03T10:24:04.000+02:00  INFO 1777 --- [USSD] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-03T10:24:04.042+02:00  INFO 1777 --- [USSD] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-03T10:24:04.042+02:00  INFO 1777 --- [USSD] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2058 ms
+2024-12-03T10:24:04.221+02:00  INFO 1777 --- [USSD] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-03T10:24:04.308+02:00  INFO 1777 --- [USSD] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-03T10:24:04.344+02:00  INFO 1777 --- [USSD] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-03T10:24:04.653+02:00  INFO 1777 --- [USSD] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-03T10:24:04.693+02:00  INFO 1777 --- [USSD] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-03T10:24:05.236+02:00  INFO 1777 --- [USSD] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7e2dd93c
+2024-12-03T10:24:05.237+02:00  INFO 1777 --- [USSD] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-03T10:24:05.308+02:00  WARN 1777 --- [USSD] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-03T10:24:05.326+02:00  INFO 1777 --- [USSD] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 9.1
@@ -58,134 +66,49 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2024-12-02T06:16:19.701+02:00  INFO 41483 --- [USSD] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-12-02T06:16:19.707+02:00  INFO 41483 --- [USSD] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-12-02T06:16:19.760+02:00  WARN 41483 --- [USSD] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-12-02T06:16:20.831+02:00  INFO 41483 --- [USSD] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2024-12-02T06:16:20.874+02:00  INFO 41483 --- [USSD] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2024-12-02T06:16:20.887+02:00  INFO 41483 --- [USSD] [restartedMain] com.example.ussd.UssdApplication         : Started UssdApplication in 6.75 seconds (process running for 8.074)
-2024-12-02T06:34:08.301+02:00  INFO 41483 --- [USSD] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
-2024-12-02T06:34:08.308+02:00  INFO 41483 --- [USSD] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2024-12-02T06:34:08.321+02:00  INFO 41483 --- [USSD] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2024-12-02T06:34:08.352+02:00  INFO 41483 --- [USSD] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-12-02T06:34:08.375+02:00  INFO 41483 --- [USSD] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2024-12-02T06:34:08.385+02:00  INFO 41483 --- [USSD] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2024-12-02T06:34:08.507+02:00  INFO 41483 --- [USSD] [restartedMain] com.example.ussd.UssdApplication         : Starting UssdApplication using Java 23.0.1 with PID 41483 (/Users/kirengasarah/Documents/GitHub/USSD/target/classes started by kirengasarah in /Users/kirengasarah/Documents/GitHub/USSD)
-2024-12-02T06:34:08.508+02:00 DEBUG 41483 --- [USSD] [restartedMain] com.example.ussd.UssdApplication         : Running with Spring Boot v3.4.0, Spring v6.2.0
-2024-12-02T06:34:08.508+02:00  INFO 41483 --- [USSD] [restartedMain] com.example.ussd.UssdApplication         : No active profile set, falling back to 1 default profile: "default"
-2024-12-02T06:34:08.759+02:00  INFO 41483 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2024-12-02T06:34:08.759+02:00  INFO 41483 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-2024-12-02T06:34:08.762+02:00  INFO 41483 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JDBC repository interfaces.
-2024-12-02T06:34:08.765+02:00  INFO 41483 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2024-12-02T06:34:08.766+02:00  INFO 41483 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-12-02T06:34:08.767+02:00  INFO 41483 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
-2024-12-02T06:34:08.771+02:00  INFO 41483 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2024-12-02T06:34:08.771+02:00  INFO 41483 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2024-12-02T06:34:08.773+02:00  INFO 41483 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 Redis repository interfaces.
-2024-12-02T06:34:08.831+02:00  WARN 41483 --- [USSD] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [annotationActionEndpointMapping] is declared through a non-static factory method on that class; consider declaring it as static instead.
-2024-12-02T06:34:08.833+02:00  INFO 41483 --- [USSD] [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
-2024-12-02T06:34:08.891+02:00  INFO 41483 --- [USSD] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2024-12-02T06:34:08.893+02:00  INFO 41483 --- [USSD] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-12-02T06:34:08.893+02:00  INFO 41483 --- [USSD] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
-2024-12-02T06:34:08.906+02:00  INFO 41483 --- [USSD] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-12-02T06:34:08.906+02:00  INFO 41483 --- [USSD] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 392 ms
-2024-12-02T06:34:08.947+02:00  INFO 41483 --- [USSD] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-12-02T06:34:08.949+02:00  INFO 41483 --- [USSD] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-12-02T06:34:08.959+02:00  INFO 41483 --- [USSD] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-12-02T06:34:08.961+02:00  INFO 41483 --- [USSD] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
-2024-12-02T06:34:08.984+02:00  INFO 41483 --- [USSD] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4377e686
-2024-12-02T06:34:08.985+02:00  INFO 41483 --- [USSD] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
-2024-12-02T06:34:08.992+02:00  WARN 41483 --- [USSD] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2024-12-02T06:34:08.993+02:00  INFO 41483 --- [USSD] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
-	Database driver: undefined/unknown
-	Database version: 9.1
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2024-12-02T06:34:09.013+02:00  INFO 41483 --- [USSD] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-12-02T06:34:09.014+02:00  INFO 41483 --- [USSD] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-12-02T06:34:09.075+02:00  WARN 41483 --- [USSD] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-12-02T06:34:09.291+02:00  INFO 41483 --- [USSD] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2024-12-02T06:34:09.303+02:00  INFO 41483 --- [USSD] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2024-12-02T06:34:09.308+02:00  INFO 41483 --- [USSD] [restartedMain] com.example.ussd.UssdApplication         : Started UssdApplication in 0.832 seconds (process running for 1076.171)
-2024-12-02T06:34:09.313+02:00  INFO 41483 --- [USSD] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
-
-
-==========================
-CONDITION EVALUATION DELTA
-==========================
-
-
-Positive matches:
------------------
-
-    None
-
-
-Negative matches:
------------------
-
-   RedisAutoConfiguration#redisTemplate:
-      Did not match:
-         - @ConditionalOnMissingBean (names: redisTemplate; SearchStrategy: all) found beans named redisTemplate (OnBeanCondition)
-
-
-Exclusions:
------------
-
-    None
-
-
-Unconditional classes:
-----------------------
-
-    None
-
-
-
-2024-12-02T06:40:04.179+02:00  WARN 41483 --- [USSD] [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=5m55s90ms).
-2024-12-02T07:07:33.394+02:00  WARN 41483 --- [USSD] [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=15m28s974ms).
-2024-12-02T07:12:27.839+02:00  WARN 41483 --- [USSD] [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=4m54s445ms).
-2024-12-02T07:27:57.705+02:00  WARN 41483 --- [USSD] [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=15m29s866ms).
-2024-12-02T07:43:26.707+02:00  WARN 41483 --- [USSD] [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=15m29s2ms).
-2024-12-02T08:21:10.328+02:00  WARN 41483 --- [USSD] [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=37m43s621ms).
-2024-12-02T08:24:10.300+02:00  INFO 41483 --- [USSD] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2024-12-02T08:24:10.307+02:00  INFO 41483 --- [USSD] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2024-12-02T08:24:10.317+02:00  INFO 41483 --- [USSD] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-12-02T08:24:10.321+02:00  INFO 41483 --- [USSD] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
-2024-12-02T08:24:10.332+02:00  INFO 41483 --- [USSD] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
-2024-12-02T08:33:11.076+02:00  INFO 42413 --- [USSD] [restartedMain] com.example.ussd.UssdApplication         : Starting UssdApplication using Java 23.0.1 with PID 42413 (/Users/kirengasarah/Documents/GitHub/USSD/target/classes started by kirengasarah in /Users/kirengasarah/Documents/GitHub/USSD)
-2024-12-02T08:33:11.077+02:00 DEBUG 42413 --- [USSD] [restartedMain] com.example.ussd.UssdApplication         : Running with Spring Boot v3.4.0, Spring v6.2.0
-2024-12-02T08:33:11.078+02:00  INFO 42413 --- [USSD] [restartedMain] com.example.ussd.UssdApplication         : No active profile set, falling back to 1 default profile: "default"
-2024-12-02T08:33:11.126+02:00  INFO 42413 --- [USSD] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2024-12-02T08:33:11.126+02:00  INFO 42413 --- [USSD] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2024-12-02T08:33:11.951+02:00  INFO 42413 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2024-12-02T08:33:11.953+02:00  INFO 42413 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-2024-12-02T08:33:11.972+02:00  INFO 42413 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 0 JDBC repository interfaces.
-2024-12-02T08:33:11.986+02:00  INFO 42413 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2024-12-02T08:33:11.988+02:00  INFO 42413 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-12-02T08:33:11.997+02:00  INFO 42413 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
-2024-12-02T08:33:12.019+02:00  INFO 42413 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2024-12-02T08:33:12.021+02:00  INFO 42413 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2024-12-02T08:33:12.039+02:00  INFO 42413 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
-2024-12-02T08:33:12.384+02:00  WARN 42413 --- [USSD] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [annotationActionEndpointMapping] is declared through a non-static factory method on that class; consider declaring it as static instead.
-2024-12-02T08:33:12.415+02:00  INFO 42413 --- [USSD] [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
-2024-12-02T08:33:12.850+02:00  INFO 42413 --- [USSD] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2024-12-02T08:33:12.866+02:00  INFO 42413 --- [USSD] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-12-02T08:33:12.867+02:00  INFO 42413 --- [USSD] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
-2024-12-02T08:33:12.916+02:00  INFO 42413 --- [USSD] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-12-02T08:33:12.916+02:00  INFO 42413 --- [USSD] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1789 ms
-2024-12-02T08:33:13.124+02:00  INFO 42413 --- [USSD] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-12-02T08:33:13.224+02:00  INFO 42413 --- [USSD] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
-2024-12-02T08:33:13.262+02:00  INFO 42413 --- [USSD] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-12-02T08:33:13.565+02:00  INFO 42413 --- [USSD] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-12-02T08:33:13.601+02:00  INFO 42413 --- [USSD] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-12-02T08:33:14.026+02:00  INFO 42413 --- [USSD] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7e3e51ef
-2024-12-02T08:33:14.028+02:00  INFO 42413 --- [USSD] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-12-02T08:33:14.092+02:00  WARN 42413 --- [USSD] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2024-12-02T08:33:14.111+02:00  INFO 42413 --- [USSD] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2024-12-03T10:24:06.327+02:00  INFO 1777 --- [USSD] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-03T10:24:06.385+02:00  INFO 1777 --- [USSD] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-03T10:24:06.650+02:00  WARN 1777 --- [USSD] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-03T10:24:07.624+02:00  INFO 1777 --- [USSD] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-12-03T10:24:07.664+02:00  INFO 1777 --- [USSD] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-03T10:24:07.673+02:00  INFO 1777 --- [USSD] [restartedMain] com.example.ussd.UssdApplication         : Started UssdApplication in 6.441 seconds (process running for 7.897)
+2024-12-03T10:29:31.844+02:00  INFO 1777 --- [USSD] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-03T10:29:31.860+02:00  INFO 1777 --- [USSD] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2024-12-03T10:29:31.890+02:00  INFO 1777 --- [USSD] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-03T10:29:31.895+02:00  INFO 1777 --- [USSD] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-03T10:29:31.904+02:00  INFO 1777 --- [USSD] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-12-03T10:29:34.358+02:00  INFO 1938 --- [USSD] [restartedMain] com.example.ussd.UssdApplication         : Starting UssdApplication using Java 23.0.1 with PID 1938 (/Users/kirengasarah/Documents/GitHub/USSD/target/classes started by kirengasarah in /Users/kirengasarah/Documents/GitHub/USSD)
+2024-12-03T10:29:34.359+02:00 DEBUG 1938 --- [USSD] [restartedMain] com.example.ussd.UssdApplication         : Running with Spring Boot v3.4.0, Spring v6.2.0
+2024-12-03T10:29:34.360+02:00  INFO 1938 --- [USSD] [restartedMain] com.example.ussd.UssdApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-12-03T10:29:34.430+02:00  INFO 1938 --- [USSD] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-03T10:29:34.430+02:00  INFO 1938 --- [USSD] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-03T10:29:35.247+02:00  INFO 1938 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-12-03T10:29:35.248+02:00  INFO 1938 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-12-03T10:29:35.287+02:00  INFO 1938 --- [USSD] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.ussd.repository.SessionDataRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-12-03T10:29:35.288+02:00  INFO 1938 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 35 ms. Found 0 JDBC repository interfaces.
+2024-12-03T10:29:35.301+02:00  INFO 1938 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-12-03T10:29:35.302+02:00  INFO 1938 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-03T10:29:35.446+02:00  INFO 1938 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 137 ms. Found 1 JPA repository interface.
+2024-12-03T10:29:35.468+02:00  INFO 1938 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-12-03T10:29:35.469+02:00  INFO 1938 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-12-03T10:29:35.485+02:00  INFO 1938 --- [USSD] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.ussd.repository.SessionDataRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-12-03T10:29:35.486+02:00  INFO 1938 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2024-12-03T10:29:35.808+02:00  WARN 1938 --- [USSD] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [annotationActionEndpointMapping] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2024-12-03T10:29:35.829+02:00  INFO 1938 --- [USSD] [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2024-12-03T10:29:36.104+02:00  INFO 1938 --- [USSD] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-03T10:29:36.117+02:00  INFO 1938 --- [USSD] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-03T10:29:36.117+02:00  INFO 1938 --- [USSD] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-03T10:29:36.153+02:00  INFO 1938 --- [USSD] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-03T10:29:36.153+02:00  INFO 1938 --- [USSD] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1722 ms
+2024-12-03T10:29:36.318+02:00  INFO 1938 --- [USSD] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-03T10:29:36.394+02:00  INFO 1938 --- [USSD] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-03T10:29:36.448+02:00  INFO 1938 --- [USSD] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-03T10:29:36.740+02:00  INFO 1938 --- [USSD] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-03T10:29:36.770+02:00  INFO 1938 --- [USSD] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-03T10:29:37.238+02:00  INFO 1938 --- [USSD] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@736ec2ec
+2024-12-03T10:29:37.240+02:00  INFO 1938 --- [USSD] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-03T10:29:37.287+02:00  WARN 1938 --- [USSD] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-03T10:29:37.304+02:00  INFO 1938 --- [USSD] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 9.1
@@ -193,67 +116,49 @@ Unconditional classes:
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2024-12-02T08:33:14.481+02:00  INFO 42413 --- [USSD] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-12-02T08:33:14.487+02:00  INFO 42413 --- [USSD] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-12-02T08:33:14.891+02:00  WARN 42413 --- [USSD] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-12-02T08:33:15.534+02:00  INFO 42413 --- [USSD] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2024-12-02T08:33:15.573+02:00  INFO 42413 --- [USSD] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2024-12-02T08:33:15.581+02:00  INFO 42413 --- [USSD] [restartedMain] com.example.ussd.UssdApplication         : Started UssdApplication in 4.95 seconds (process running for 5.736)
-2024-12-02T08:35:16.231+02:00  INFO 42413 --- [USSD] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-12-02T08:35:16.232+02:00  INFO 42413 --- [USSD] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-12-02T08:35:16.233+02:00  INFO 42413 --- [USSD] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2024-12-02T08:35:16.896+02:00 ERROR 42413 --- [USSD] [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis] with root cause
-
-java.net.ConnectException: Connection refused
-	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
-	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:682) ~[na:na]
-	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:1062) ~[na:na]
-	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:336) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
-	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:339) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.115.Final.jar:4.1.115.Final]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.115.Final.jar:4.1.115.Final]
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.115.Final.jar:4.1.115.Final]
-	at java.base/java.lang.Thread.run(Thread.java:1575) ~[na:na]
-
-2024-12-02T08:38:50.229+02:00  INFO 42413 --- [USSD] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2024-12-02T08:38:50.234+02:00  INFO 42413 --- [USSD] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2024-12-02T08:38:50.259+02:00  INFO 42413 --- [USSD] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-12-02T08:38:50.265+02:00  INFO 42413 --- [USSD] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2024-12-02T08:38:50.272+02:00  INFO 42413 --- [USSD] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2024-12-02T08:38:54.976+02:00  INFO 42537 --- [USSD] [restartedMain] com.example.ussd.UssdApplication         : Starting UssdApplication using Java 23.0.1 with PID 42537 (/Users/kirengasarah/Documents/GitHub/USSD/target/classes started by kirengasarah in /Users/kirengasarah/Documents/GitHub/USSD)
-2024-12-02T08:38:54.978+02:00 DEBUG 42537 --- [USSD] [restartedMain] com.example.ussd.UssdApplication         : Running with Spring Boot v3.4.0, Spring v6.2.0
-2024-12-02T08:38:54.979+02:00  INFO 42537 --- [USSD] [restartedMain] com.example.ussd.UssdApplication         : No active profile set, falling back to 1 default profile: "default"
-2024-12-02T08:38:55.075+02:00  INFO 42537 --- [USSD] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2024-12-02T08:38:55.077+02:00  INFO 42537 --- [USSD] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2024-12-02T08:38:56.155+02:00  INFO 42537 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2024-12-02T08:38:56.157+02:00  INFO 42537 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-2024-12-02T08:38:56.182+02:00  INFO 42537 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 0 JDBC repository interfaces.
-2024-12-02T08:38:56.202+02:00  INFO 42537 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2024-12-02T08:38:56.204+02:00  INFO 42537 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-12-02T08:38:56.214+02:00  INFO 42537 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
-2024-12-02T08:38:56.247+02:00  INFO 42537 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2024-12-02T08:38:56.250+02:00  INFO 42537 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2024-12-02T08:38:56.265+02:00  INFO 42537 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 Redis repository interfaces.
-2024-12-02T08:38:56.675+02:00  WARN 42537 --- [USSD] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [annotationActionEndpointMapping] is declared through a non-static factory method on that class; consider declaring it as static instead.
-2024-12-02T08:38:56.706+02:00  INFO 42537 --- [USSD] [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
-2024-12-02T08:38:57.167+02:00  INFO 42537 --- [USSD] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2024-12-02T08:38:57.183+02:00  INFO 42537 --- [USSD] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-12-02T08:38:57.183+02:00  INFO 42537 --- [USSD] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
-2024-12-02T08:38:57.227+02:00  INFO 42537 --- [USSD] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-12-02T08:38:57.227+02:00  INFO 42537 --- [USSD] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2147 ms
-2024-12-02T08:38:57.487+02:00  INFO 42537 --- [USSD] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-12-02T08:38:57.560+02:00  INFO 42537 --- [USSD] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
-2024-12-02T08:38:57.597+02:00  INFO 42537 --- [USSD] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-12-02T08:38:58.010+02:00  INFO 42537 --- [USSD] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-12-02T08:38:58.049+02:00  INFO 42537 --- [USSD] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-12-02T08:38:58.604+02:00  INFO 42537 --- [USSD] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@70f54
-2024-12-02T08:38:58.606+02:00  INFO 42537 --- [USSD] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-12-02T08:38:58.668+02:00  WARN 42537 --- [USSD] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2024-12-02T08:38:58.690+02:00  INFO 42537 --- [USSD] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2024-12-03T10:29:38.148+02:00  INFO 1938 --- [USSD] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-03T10:29:38.191+02:00  INFO 1938 --- [USSD] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-03T10:29:38.439+02:00  WARN 1938 --- [USSD] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-03T10:29:39.375+02:00  INFO 1938 --- [USSD] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-12-03T10:29:39.417+02:00  INFO 1938 --- [USSD] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-03T10:29:39.427+02:00  INFO 1938 --- [USSD] [restartedMain] com.example.ussd.UssdApplication         : Started UssdApplication in 5.491 seconds (process running for 6.31)
+2024-12-03T10:30:13.348+02:00  INFO 1938 --- [USSD] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-03T10:30:13.359+02:00  INFO 1938 --- [USSD] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2024-12-03T10:30:13.377+02:00  INFO 1938 --- [USSD] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-03T10:30:13.381+02:00  INFO 1938 --- [USSD] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-03T10:30:13.389+02:00  INFO 1938 --- [USSD] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-12-03T10:31:56.402+02:00  INFO 738 --- [USSD] [restartedMain] com.example.ussd.UssdApplication         : Starting UssdApplication using Java 23.0.1 with PID 738 (/Users/kirengasarah/Documents/GitHub/USSD/target/classes started by kirengasarah in /Users/kirengasarah/Documents/GitHub/USSD)
+2024-12-03T10:31:56.412+02:00 DEBUG 738 --- [USSD] [restartedMain] com.example.ussd.UssdApplication         : Running with Spring Boot v3.4.0, Spring v6.2.0
+2024-12-03T10:31:56.413+02:00  INFO 738 --- [USSD] [restartedMain] com.example.ussd.UssdApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-12-03T10:31:56.558+02:00  INFO 738 --- [USSD] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-03T10:31:56.559+02:00  INFO 738 --- [USSD] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-03T10:31:57.619+02:00  INFO 738 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-12-03T10:31:57.622+02:00  INFO 738 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-12-03T10:31:57.675+02:00  INFO 738 --- [USSD] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.ussd.repository.SessionDataRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-12-03T10:31:57.676+02:00  INFO 738 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 44 ms. Found 0 JDBC repository interfaces.
+2024-12-03T10:31:57.695+02:00  INFO 738 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-12-03T10:31:57.697+02:00  INFO 738 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-03T10:31:57.952+02:00  INFO 738 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 246 ms. Found 1 JPA repository interface.
+2024-12-03T10:31:57.988+02:00  INFO 738 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-12-03T10:31:57.990+02:00  INFO 738 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-12-03T10:31:58.021+02:00  INFO 738 --- [USSD] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.ussd.repository.SessionDataRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-12-03T10:31:58.021+02:00  INFO 738 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2024-12-03T10:31:58.456+02:00  WARN 738 --- [USSD] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [annotationActionEndpointMapping] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2024-12-03T10:31:58.512+02:00  INFO 738 --- [USSD] [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2024-12-03T10:31:58.912+02:00  INFO 738 --- [USSD] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-03T10:31:58.934+02:00  INFO 738 --- [USSD] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-03T10:31:58.934+02:00  INFO 738 --- [USSD] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-03T10:31:58.982+02:00  INFO 738 --- [USSD] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-03T10:31:58.983+02:00  INFO 738 --- [USSD] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2423 ms
+2024-12-03T10:31:59.174+02:00  INFO 738 --- [USSD] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-03T10:31:59.282+02:00  INFO 738 --- [USSD] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-03T10:31:59.340+02:00  INFO 738 --- [USSD] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-03T10:31:59.769+02:00  INFO 738 --- [USSD] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-03T10:31:59.806+02:00  INFO 738 --- [USSD] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-03T10:32:00.486+02:00  INFO 738 --- [USSD] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1e52eaba
+2024-12-03T10:32:00.488+02:00  INFO 738 --- [USSD] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-03T10:32:00.572+02:00  WARN 738 --- [USSD] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-03T10:32:00.595+02:00  INFO 738 --- [USSD] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 9.1
@@ -261,374 +166,53 @@ java.net.ConnectException: Connection refused
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2024-12-02T08:38:59.119+02:00  INFO 42537 --- [USSD] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-12-02T08:38:59.124+02:00  INFO 42537 --- [USSD] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-12-02T08:38:59.181+02:00  WARN 42537 --- [USSD] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-12-02T08:39:00.145+02:00  INFO 42537 --- [USSD] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2024-12-02T08:39:00.179+02:00  INFO 42537 --- [USSD] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2024-12-02T08:39:00.188+02:00  INFO 42537 --- [USSD] [restartedMain] com.example.ussd.UssdApplication         : Started UssdApplication in 5.61 seconds (process running for 6.268)
-2024-12-02T08:39:03.198+02:00  INFO 42537 --- [USSD] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-12-02T08:39:03.198+02:00  INFO 42537 --- [USSD] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-12-02T08:39:03.199+02:00  INFO 42537 --- [USSD] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2024-12-02T08:42:04.787+02:00  INFO 42537 --- [USSD] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
-2024-12-02T08:42:04.793+02:00  INFO 42537 --- [USSD] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2024-12-02T08:42:04.804+02:00  INFO 42537 --- [USSD] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2024-12-02T08:42:04.852+02:00  INFO 42537 --- [USSD] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-12-02T08:42:04.857+02:00  INFO 42537 --- [USSD] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2024-12-02T08:42:04.863+02:00  INFO 42537 --- [USSD] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2024-12-02T08:42:04.937+02:00  INFO 42537 --- [USSD] [restartedMain] com.example.ussd.UssdApplication         : Starting UssdApplication using Java 23.0.1 with PID 42537 (/Users/kirengasarah/Documents/GitHub/USSD/target/classes started by kirengasarah in /Users/kirengasarah/Documents/GitHub/USSD)
-2024-12-02T08:42:04.950+02:00 DEBUG 42537 --- [USSD] [restartedMain] com.example.ussd.UssdApplication         : Running with Spring Boot v3.4.0, Spring v6.2.0
-2024-12-02T08:42:04.950+02:00  INFO 42537 --- [USSD] [restartedMain] com.example.ussd.UssdApplication         : No active profile set, falling back to 1 default profile: "default"
-2024-12-02T08:42:05.153+02:00  INFO 42537 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2024-12-02T08:42:05.153+02:00  INFO 42537 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-2024-12-02T08:42:05.156+02:00  INFO 42537 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JDBC repository interfaces.
-2024-12-02T08:42:05.160+02:00  INFO 42537 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2024-12-02T08:42:05.160+02:00  INFO 42537 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-12-02T08:42:05.162+02:00  INFO 42537 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
-2024-12-02T08:42:05.165+02:00  INFO 42537 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2024-12-02T08:42:05.166+02:00  INFO 42537 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2024-12-02T08:42:05.168+02:00  INFO 42537 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 Redis repository interfaces.
-2024-12-02T08:42:05.215+02:00  WARN 42537 --- [USSD] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [annotationActionEndpointMapping] is declared through a non-static factory method on that class; consider declaring it as static instead.
-2024-12-02T08:42:05.217+02:00  INFO 42537 --- [USSD] [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
-2024-12-02T08:42:05.264+02:00  INFO 42537 --- [USSD] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2024-12-02T08:42:05.265+02:00  INFO 42537 --- [USSD] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-12-02T08:42:05.265+02:00  INFO 42537 --- [USSD] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
-2024-12-02T08:42:05.277+02:00  INFO 42537 --- [USSD] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-12-02T08:42:05.277+02:00  INFO 42537 --- [USSD] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 324 ms
-2024-12-02T08:42:05.309+02:00  INFO 42537 --- [USSD] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-12-02T08:42:05.313+02:00  INFO 42537 --- [USSD] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-12-02T08:42:05.322+02:00  INFO 42537 --- [USSD] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-12-02T08:42:05.323+02:00  INFO 42537 --- [USSD] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
-2024-12-02T08:42:05.339+02:00  INFO 42537 --- [USSD] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@133ae18f
-2024-12-02T08:42:05.339+02:00  INFO 42537 --- [USSD] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
-2024-12-02T08:42:05.340+02:00  WARN 42537 --- [USSD] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2024-12-02T08:42:05.341+02:00  INFO 42537 --- [USSD] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
-	Database driver: undefined/unknown
-	Database version: 9.1
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2024-12-02T08:42:05.400+02:00 ERROR 42537 --- [USSD] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Failed to initialize JPA EntityManagerFactory: Entity 'com.example.ussd.model.SessionData' has no identifier (every '@Entity' class must declare or inherit at least one '@Id' or '@EmbeddedId' property)
-2024-12-02T08:42:05.401+02:00  WARN 42537 --- [USSD] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Entity 'com.example.ussd.model.SessionData' has no identifier (every '@Entity' class must declare or inherit at least one '@Id' or '@EmbeddedId' property)
-2024-12-02T08:42:05.402+02:00  INFO 42537 --- [USSD] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
-2024-12-02T08:42:05.402+02:00  INFO 42537 --- [USSD] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
-2024-12-02T08:42:05.403+02:00  INFO 42537 --- [USSD] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2024-12-02T08:42:05.408+02:00  INFO 42537 --- [USSD] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
-
-Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
-2024-12-02T08:42:05.431+02:00 ERROR 42537 --- [USSD] [restartedMain] o.s.boot.SpringApplication               : Application run failed
-
-org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Entity 'com.example.ussd.model.SessionData' has no identifier (every '@Entity' class must declare or inherit at least one '@Id' or '@EmbeddedId' property)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802) ~[spring-beans-6.2.0.jar:6.2.0]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601) ~[spring-beans-6.2.0.jar:6.2.0]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523) ~[spring-beans-6.2.0.jar:6.2.0]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:336) ~[spring-beans-6.2.0.jar:6.2.0]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:288) ~[spring-beans-6.2.0.jar:6.2.0]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:334) ~[spring-beans-6.2.0.jar:6.2.0]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204) ~[spring-beans-6.2.0.jar:6.2.0]
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:970) ~[spring-context-6.2.0.jar:6.2.0]
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.0.jar:6.2.0]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.4.0.jar:3.4.0]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.4.0.jar:3.4.0]
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.4.0.jar:3.4.0]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.4.0.jar:3.4.0]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.4.0.jar:3.4.0]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.4.0.jar:3.4.0]
-	at com.example.ussd.UssdApplication.main(UssdApplication.java:15) ~[classes/:na]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
-	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.4.0.jar:3.4.0]
-Caused by: org.hibernate.AnnotationException: Entity 'com.example.ussd.model.SessionData' has no identifier (every '@Entity' class must declare or inherit at least one '@Id' or '@EmbeddedId' property)
-	at org.hibernate.boot.model.internal.InheritanceState.determineDefaultAccessType(InheritanceState.java:290) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
-	at org.hibernate.boot.model.internal.InheritanceState.getElementsToProcess(InheritanceState.java:226) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
-	at org.hibernate.boot.model.internal.InheritanceState.postProcess(InheritanceState.java:162) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
-	at org.hibernate.boot.model.internal.EntityBinder.handleIdentifier(EntityBinder.java:409) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
-	at org.hibernate.boot.model.internal.EntityBinder.bindEntityClass(EntityBinder.java:250) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
-	at org.hibernate.boot.model.internal.AnnotationBinder.bindClass(AnnotationBinder.java:401) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
-	at org.hibernate.boot.model.source.internal.annotations.AnnotationMetadataSourceProcessorImpl.processEntityHierarchies(AnnotationMetadataSourceProcessorImpl.java:257) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
-	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess$1.processEntityHierarchies(MetadataBuildingProcess.java:281) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
-	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:324) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
-	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1431) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
-	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1502) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
-	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66) ~[spring-orm-6.2.0.jar:6.2.0]
-	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.2.0.jar:6.2.0]
-	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:419) ~[spring-orm-6.2.0.jar:6.2.0]
-	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:400) ~[spring-orm-6.2.0.jar:6.2.0]
-	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.2.0.jar:6.2.0]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1849) ~[spring-beans-6.2.0.jar:6.2.0]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1798) ~[spring-beans-6.2.0.jar:6.2.0]
-	... 18 common frames omitted
-
-2024-12-02T08:43:16.766+02:00  INFO 42537 --- [USSD] [restartedMain] com.example.ussd.UssdApplication         : Starting UssdApplication using Java 23.0.1 with PID 42537 (/Users/kirengasarah/Documents/GitHub/USSD/target/classes started by kirengasarah in /Users/kirengasarah/Documents/GitHub/USSD)
-2024-12-02T08:43:16.767+02:00 DEBUG 42537 --- [USSD] [restartedMain] com.example.ussd.UssdApplication         : Running with Spring Boot v3.4.0, Spring v6.2.0
-2024-12-02T08:43:16.767+02:00  INFO 42537 --- [USSD] [restartedMain] com.example.ussd.UssdApplication         : No active profile set, falling back to 1 default profile: "default"
-2024-12-02T08:43:16.895+02:00  INFO 42537 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2024-12-02T08:43:16.896+02:00  INFO 42537 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-2024-12-02T08:43:16.897+02:00  INFO 42537 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JDBC repository interfaces.
-2024-12-02T08:43:16.900+02:00  INFO 42537 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2024-12-02T08:43:16.900+02:00  INFO 42537 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-12-02T08:43:16.901+02:00  INFO 42537 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
-2024-12-02T08:43:16.904+02:00  INFO 42537 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2024-12-02T08:43:16.904+02:00  INFO 42537 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2024-12-02T08:43:16.907+02:00  INFO 42537 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 Redis repository interfaces.
-2024-12-02T08:43:16.947+02:00  WARN 42537 --- [USSD] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [annotationActionEndpointMapping] is declared through a non-static factory method on that class; consider declaring it as static instead.
-2024-12-02T08:43:16.952+02:00  INFO 42537 --- [USSD] [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
-2024-12-02T08:43:16.989+02:00  INFO 42537 --- [USSD] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2024-12-02T08:43:16.990+02:00  INFO 42537 --- [USSD] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-12-02T08:43:16.990+02:00  INFO 42537 --- [USSD] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
-2024-12-02T08:43:17.002+02:00  INFO 42537 --- [USSD] [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
-2024-12-02T08:43:17.002+02:00  INFO 42537 --- [USSD] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 234 ms
-2024-12-02T08:43:17.051+02:00  INFO 42537 --- [USSD] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-12-02T08:43:17.054+02:00  INFO 42537 --- [USSD] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-12-02T08:43:17.067+02:00  INFO 42537 --- [USSD] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-12-02T08:43:17.068+02:00  INFO 42537 --- [USSD] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
-2024-12-02T08:43:17.088+02:00  INFO 42537 --- [USSD] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@319a39af
-2024-12-02T08:43:17.089+02:00  INFO 42537 --- [USSD] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
-2024-12-02T08:43:17.090+02:00  WARN 42537 --- [USSD] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2024-12-02T08:43:17.090+02:00  INFO 42537 --- [USSD] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-3)']
-	Database driver: undefined/unknown
-	Database version: 9.1
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2024-12-02T08:43:17.669+02:00  INFO 42537 --- [USSD] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-12-02T08:43:17.870+02:00  INFO 42537 --- [USSD] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-12-02T08:43:17.889+02:00  WARN 42537 --- [USSD] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-12-02T08:43:18.019+02:00  INFO 42537 --- [USSD] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2024-12-02T08:43:18.028+02:00  INFO 42537 --- [USSD] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2024-12-02T08:43:18.031+02:00  INFO 42537 --- [USSD] [restartedMain] com.example.ussd.UssdApplication         : Started UssdApplication in 1.283 seconds (process running for 264.109)
-2024-12-02T08:43:18.032+02:00  INFO 42537 --- [USSD] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2024-12-02T08:43:53.651+02:00  INFO 42537 --- [USSD] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
-2024-12-02T08:43:53.652+02:00  INFO 42537 --- [USSD] [Thread-7] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2024-12-02T08:43:53.654+02:00  INFO 42537 --- [USSD] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2024-12-02T08:43:53.658+02:00  INFO 42537 --- [USSD] [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-12-02T08:43:53.659+02:00  INFO 42537 --- [USSD] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
-2024-12-02T08:43:53.663+02:00  INFO 42537 --- [USSD] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
-2024-12-02T08:43:53.735+02:00  INFO 42537 --- [USSD] [restartedMain] com.example.ussd.UssdApplication         : Starting UssdApplication using Java 23.0.1 with PID 42537 (/Users/kirengasarah/Documents/GitHub/USSD/target/classes started by kirengasarah in /Users/kirengasarah/Documents/GitHub/USSD)
-2024-12-02T08:43:53.735+02:00 DEBUG 42537 --- [USSD] [restartedMain] com.example.ussd.UssdApplication         : Running with Spring Boot v3.4.0, Spring v6.2.0
-2024-12-02T08:43:53.735+02:00  INFO 42537 --- [USSD] [restartedMain] com.example.ussd.UssdApplication         : No active profile set, falling back to 1 default profile: "default"
-2024-12-02T08:43:53.878+02:00  INFO 42537 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2024-12-02T08:43:53.878+02:00  INFO 42537 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-2024-12-02T08:43:53.881+02:00  INFO 42537 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JDBC repository interfaces.
-2024-12-02T08:43:53.885+02:00  INFO 42537 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2024-12-02T08:43:53.885+02:00  INFO 42537 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-12-02T08:43:53.887+02:00  INFO 42537 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
-2024-12-02T08:43:53.892+02:00  INFO 42537 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2024-12-02T08:43:53.892+02:00  INFO 42537 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2024-12-02T08:43:53.895+02:00  INFO 42537 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 Redis repository interfaces.
-2024-12-02T08:43:53.968+02:00  WARN 42537 --- [USSD] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [annotationActionEndpointMapping] is declared through a non-static factory method on that class; consider declaring it as static instead.
-2024-12-02T08:43:53.970+02:00  INFO 42537 --- [USSD] [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
-2024-12-02T08:43:54.014+02:00  INFO 42537 --- [USSD] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2024-12-02T08:43:54.014+02:00  INFO 42537 --- [USSD] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-12-02T08:43:54.014+02:00  INFO 42537 --- [USSD] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
-2024-12-02T08:43:54.026+02:00  INFO 42537 --- [USSD] [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
-2024-12-02T08:43:54.026+02:00  INFO 42537 --- [USSD] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 289 ms
-2024-12-02T08:43:54.064+02:00  INFO 42537 --- [USSD] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-12-02T08:43:54.066+02:00  INFO 42537 --- [USSD] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-12-02T08:43:54.077+02:00  INFO 42537 --- [USSD] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-12-02T08:43:54.077+02:00  INFO 42537 --- [USSD] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
-2024-12-02T08:43:54.099+02:00  INFO 42537 --- [USSD] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7eff476f
-2024-12-02T08:43:54.100+02:00  INFO 42537 --- [USSD] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
-2024-12-02T08:43:54.102+02:00  WARN 42537 --- [USSD] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2024-12-02T08:43:54.102+02:00  INFO 42537 --- [USSD] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-4)']
-	Database driver: undefined/unknown
-	Database version: 9.1
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2024-12-02T08:43:54.150+02:00  INFO 42537 --- [USSD] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-12-02T08:43:54.169+02:00  INFO 42537 --- [USSD] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-12-02T08:43:54.201+02:00  WARN 42537 --- [USSD] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-12-02T08:43:54.382+02:00  INFO 42537 --- [USSD] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2024-12-02T08:43:54.396+02:00  INFO 42537 --- [USSD] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2024-12-02T08:43:54.400+02:00  INFO 42537 --- [USSD] [restartedMain] com.example.ussd.UssdApplication         : Started UssdApplication in 0.687 seconds (process running for 300.477)
-2024-12-02T08:43:54.401+02:00  INFO 42537 --- [USSD] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2024-12-02T08:43:55.800+02:00  INFO 42537 --- [USSD] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
-2024-12-02T08:43:55.814+02:00  INFO 42537 --- [USSD] [Thread-14] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2024-12-02T08:43:55.844+02:00  INFO 42537 --- [USSD] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2024-12-02T08:43:55.957+02:00  INFO 42537 --- [USSD] [Thread-14] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-12-02T08:43:55.958+02:00  INFO 42537 --- [USSD] [Thread-14] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
-2024-12-02T08:43:55.981+02:00  INFO 42537 --- [USSD] [Thread-14] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
-2024-12-02T08:43:56.065+02:00  INFO 42537 --- [USSD] [restartedMain] com.example.ussd.UssdApplication         : Starting UssdApplication using Java 23.0.1 with PID 42537 (/Users/kirengasarah/Documents/GitHub/USSD/target/classes started by kirengasarah in /Users/kirengasarah/Documents/GitHub/USSD)
-2024-12-02T08:43:56.065+02:00 DEBUG 42537 --- [USSD] [restartedMain] com.example.ussd.UssdApplication         : Running with Spring Boot v3.4.0, Spring v6.2.0
-2024-12-02T08:43:56.065+02:00  INFO 42537 --- [USSD] [restartedMain] com.example.ussd.UssdApplication         : No active profile set, falling back to 1 default profile: "default"
-2024-12-02T08:43:56.495+02:00  INFO 42537 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2024-12-02T08:43:56.495+02:00  INFO 42537 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-2024-12-02T08:43:56.497+02:00  INFO 42537 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JDBC repository interfaces.
-2024-12-02T08:43:56.502+02:00  INFO 42537 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2024-12-02T08:43:56.503+02:00  INFO 42537 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-12-02T08:43:56.504+02:00  INFO 42537 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
-2024-12-02T08:43:56.510+02:00  INFO 42537 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2024-12-02T08:43:56.510+02:00  INFO 42537 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2024-12-02T08:43:56.512+02:00  INFO 42537 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 Redis repository interfaces.
-2024-12-02T08:43:56.627+02:00  WARN 42537 --- [USSD] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [annotationActionEndpointMapping] is declared through a non-static factory method on that class; consider declaring it as static instead.
-2024-12-02T08:43:56.636+02:00  INFO 42537 --- [USSD] [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
-2024-12-02T08:43:56.840+02:00  INFO 42537 --- [USSD] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2024-12-02T08:43:56.846+02:00  INFO 42537 --- [USSD] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-12-02T08:43:56.846+02:00  INFO 42537 --- [USSD] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
-2024-12-02T08:43:56.865+02:00  INFO 42537 --- [USSD] [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
-2024-12-02T08:43:56.866+02:00  INFO 42537 --- [USSD] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 798 ms
-2024-12-02T08:43:57.010+02:00  INFO 42537 --- [USSD] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-12-02T08:43:57.012+02:00  INFO 42537 --- [USSD] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-12-02T08:43:57.020+02:00  INFO 42537 --- [USSD] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-12-02T08:43:57.021+02:00  INFO 42537 --- [USSD] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
-2024-12-02T08:43:57.041+02:00  INFO 42537 --- [USSD] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-5 - Added connection com.mysql.cj.jdbc.ConnectionImpl@58f2e038
-2024-12-02T08:43:57.042+02:00  INFO 42537 --- [USSD] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
-2024-12-02T08:43:57.043+02:00  WARN 42537 --- [USSD] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2024-12-02T08:43:57.043+02:00  INFO 42537 --- [USSD] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-5)']
-	Database driver: undefined/unknown
-	Database version: 9.1
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2024-12-02T08:43:57.136+02:00  INFO 42537 --- [USSD] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-12-02T08:43:57.151+02:00  INFO 42537 --- [USSD] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-12-02T08:43:57.228+02:00  WARN 42537 --- [USSD] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-12-02T08:43:57.702+02:00  INFO 42537 --- [USSD] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2024-12-02T08:43:57.732+02:00  INFO 42537 --- [USSD] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2024-12-02T08:43:57.741+02:00  INFO 42537 --- [USSD] [restartedMain] com.example.ussd.UssdApplication         : Started UssdApplication in 1.713 seconds (process running for 303.819)
-2024-12-02T08:43:57.743+02:00  INFO 42537 --- [USSD] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2024-12-02T08:47:34.562+02:00  INFO 42537 --- [USSD] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
-2024-12-02T08:47:34.565+02:00  INFO 42537 --- [USSD] [Thread-18] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2024-12-02T08:47:34.568+02:00  INFO 42537 --- [USSD] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2024-12-02T08:47:34.577+02:00  INFO 42537 --- [USSD] [Thread-18] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-12-02T08:47:34.577+02:00  INFO 42537 --- [USSD] [Thread-18] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
-2024-12-02T08:47:34.583+02:00  INFO 42537 --- [USSD] [Thread-18] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
-2024-12-02T08:47:34.656+02:00  INFO 42537 --- [USSD] [restartedMain] com.example.ussd.UssdApplication         : Starting UssdApplication using Java 23.0.1 with PID 42537 (/Users/kirengasarah/Documents/GitHub/USSD/target/classes started by kirengasarah in /Users/kirengasarah/Documents/GitHub/USSD)
-2024-12-02T08:47:34.657+02:00 DEBUG 42537 --- [USSD] [restartedMain] com.example.ussd.UssdApplication         : Running with Spring Boot v3.4.0, Spring v6.2.0
-2024-12-02T08:47:34.657+02:00  INFO 42537 --- [USSD] [restartedMain] com.example.ussd.UssdApplication         : No active profile set, falling back to 1 default profile: "default"
-2024-12-02T08:47:34.842+02:00  INFO 42537 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2024-12-02T08:47:34.842+02:00  INFO 42537 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-2024-12-02T08:47:34.858+02:00  INFO 42537 --- [USSD] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.ussd.repository.SessionRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
-2024-12-02T08:47:34.859+02:00  INFO 42537 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 0 JDBC repository interfaces.
-2024-12-02T08:47:34.862+02:00  INFO 42537 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2024-12-02T08:47:34.862+02:00  INFO 42537 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-12-02T08:47:34.888+02:00  INFO 42537 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 24 ms. Found 1 JPA repository interface.
-2024-12-02T08:47:34.893+02:00  INFO 42537 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2024-12-02T08:47:34.893+02:00  INFO 42537 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2024-12-02T08:47:34.897+02:00  INFO 42537 --- [USSD] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.ussd.repository.SessionRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
-2024-12-02T08:47:34.897+02:00  INFO 42537 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
-2024-12-02T08:47:34.958+02:00  WARN 42537 --- [USSD] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [annotationActionEndpointMapping] is declared through a non-static factory method on that class; consider declaring it as static instead.
-2024-12-02T08:47:34.960+02:00  INFO 42537 --- [USSD] [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
-2024-12-02T08:47:35.002+02:00  INFO 42537 --- [USSD] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2024-12-02T08:47:35.004+02:00  INFO 42537 --- [USSD] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-12-02T08:47:35.004+02:00  INFO 42537 --- [USSD] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
-2024-12-02T08:47:35.015+02:00  INFO 42537 --- [USSD] [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
-2024-12-02T08:47:35.015+02:00  INFO 42537 --- [USSD] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 356 ms
-2024-12-02T08:47:35.049+02:00  INFO 42537 --- [USSD] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-12-02T08:47:35.051+02:00  INFO 42537 --- [USSD] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-12-02T08:47:35.064+02:00  INFO 42537 --- [USSD] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-12-02T08:47:35.065+02:00  INFO 42537 --- [USSD] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
-2024-12-02T08:47:35.087+02:00  INFO 42537 --- [USSD] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-6 - Added connection com.mysql.cj.jdbc.ConnectionImpl@794a8398
-2024-12-02T08:47:35.087+02:00  INFO 42537 --- [USSD] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
-2024-12-02T08:47:35.089+02:00  WARN 42537 --- [USSD] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2024-12-02T08:47:35.089+02:00  INFO 42537 --- [USSD] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-6)']
-	Database driver: undefined/unknown
-	Database version: 9.1
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2024-12-02T08:47:35.119+02:00  INFO 42537 --- [USSD] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-12-02T08:47:35.134+02:00  INFO 42537 --- [USSD] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-12-02T08:47:35.157+02:00  WARN 42537 --- [USSD] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-12-02T08:47:35.456+02:00  INFO 42537 --- [USSD] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2024-12-02T08:47:35.472+02:00  INFO 42537 --- [USSD] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2024-12-02T08:47:35.475+02:00  INFO 42537 --- [USSD] [restartedMain] com.example.ussd.UssdApplication         : Started UssdApplication in 0.842 seconds (process running for 521.551)
-2024-12-02T08:47:35.476+02:00  INFO 42537 --- [USSD] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2024-12-02T08:51:00.262+02:00  INFO 42537 --- [USSD] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (0 additions, 2 deletions, 0 modifications)
-2024-12-02T08:51:00.264+02:00  INFO 42537 --- [USSD] [Thread-22] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2024-12-02T08:51:00.266+02:00  INFO 42537 --- [USSD] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2024-12-02T08:51:00.270+02:00  INFO 42537 --- [USSD] [Thread-22] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-12-02T08:51:00.271+02:00  INFO 42537 --- [USSD] [Thread-22] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
-2024-12-02T08:51:00.275+02:00  INFO 42537 --- [USSD] [Thread-22] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
-2024-12-02T08:51:00.351+02:00  INFO 42537 --- [USSD] [restartedMain] com.example.ussd.UssdApplication         : Starting UssdApplication using Java 23.0.1 with PID 42537 (/Users/kirengasarah/Documents/GitHub/USSD/target/classes started by kirengasarah in /Users/kirengasarah/Documents/GitHub/USSD)
-2024-12-02T08:51:00.351+02:00 DEBUG 42537 --- [USSD] [restartedMain] com.example.ussd.UssdApplication         : Running with Spring Boot v3.4.0, Spring v6.2.0
-2024-12-02T08:51:00.351+02:00  INFO 42537 --- [USSD] [restartedMain] com.example.ussd.UssdApplication         : No active profile set, falling back to 1 default profile: "default"
-2024-12-02T08:51:00.557+02:00  INFO 42537 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2024-12-02T08:51:00.557+02:00  INFO 42537 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-2024-12-02T08:51:00.559+02:00  INFO 42537 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JDBC repository interfaces.
-2024-12-02T08:51:00.565+02:00  INFO 42537 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2024-12-02T08:51:00.565+02:00  INFO 42537 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-12-02T08:51:00.567+02:00  INFO 42537 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
-2024-12-02T08:51:00.573+02:00  INFO 42537 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2024-12-02T08:51:00.573+02:00  INFO 42537 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2024-12-02T08:51:00.575+02:00  INFO 42537 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 Redis repository interfaces.
-2024-12-02T08:51:00.644+02:00  WARN 42537 --- [USSD] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [annotationActionEndpointMapping] is declared through a non-static factory method on that class; consider declaring it as static instead.
-2024-12-02T08:51:00.647+02:00  INFO 42537 --- [USSD] [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
-2024-12-02T08:51:00.705+02:00  INFO 42537 --- [USSD] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2024-12-02T08:51:00.706+02:00  INFO 42537 --- [USSD] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-12-02T08:51:00.706+02:00  INFO 42537 --- [USSD] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
-2024-12-02T08:51:00.727+02:00  INFO 42537 --- [USSD] [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
-2024-12-02T08:51:00.746+02:00  INFO 42537 --- [USSD] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 394 ms
-2024-12-02T08:51:00.781+02:00  INFO 42537 --- [USSD] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-12-02T08:51:00.782+02:00  INFO 42537 --- [USSD] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-12-02T08:51:00.792+02:00  INFO 42537 --- [USSD] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-12-02T08:51:00.792+02:00  INFO 42537 --- [USSD] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Starting...
-2024-12-02T08:51:00.809+02:00  INFO 42537 --- [USSD] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-7 - Added connection com.mysql.cj.jdbc.ConnectionImpl@371f94b
-2024-12-02T08:51:00.809+02:00  INFO 42537 --- [USSD] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Start completed.
-2024-12-02T08:51:00.810+02:00  WARN 42537 --- [USSD] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2024-12-02T08:51:00.810+02:00  INFO 42537 --- [USSD] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-7)']
-	Database driver: undefined/unknown
-	Database version: 9.1
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2024-12-02T08:51:00.835+02:00  INFO 42537 --- [USSD] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-12-02T08:51:00.843+02:00  INFO 42537 --- [USSD] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-12-02T08:51:00.861+02:00  WARN 42537 --- [USSD] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-12-02T08:51:01.015+02:00  INFO 42537 --- [USSD] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2024-12-02T08:51:01.026+02:00  INFO 42537 --- [USSD] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2024-12-02T08:51:01.030+02:00  INFO 42537 --- [USSD] [restartedMain] com.example.ussd.UssdApplication         : Started UssdApplication in 0.702 seconds (process running for 727.104)
-2024-12-02T08:51:01.031+02:00  INFO 42537 --- [USSD] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2024-12-02T08:52:51.738+02:00  INFO 42537 --- [USSD] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2024-12-02T08:52:51.743+02:00  INFO 42537 --- [USSD] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2024-12-02T08:52:51.747+02:00  INFO 42537 --- [USSD] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-12-02T08:52:51.748+02:00  INFO 42537 --- [USSD] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown initiated...
-2024-12-02T08:52:51.756+02:00  INFO 42537 --- [USSD] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown completed.
-2024-12-02T08:52:55.455+02:00  INFO 42861 --- [USSD] [restartedMain] com.example.ussd.UssdApplication         : Starting UssdApplication using Java 23.0.1 with PID 42861 (/Users/kirengasarah/Documents/GitHub/USSD/target/classes started by kirengasarah in /Users/kirengasarah/Documents/GitHub/USSD)
-2024-12-02T08:52:55.456+02:00 DEBUG 42861 --- [USSD] [restartedMain] com.example.ussd.UssdApplication         : Running with Spring Boot v3.4.0, Spring v6.2.0
-2024-12-02T08:52:55.457+02:00  INFO 42861 --- [USSD] [restartedMain] com.example.ussd.UssdApplication         : No active profile set, falling back to 1 default profile: "default"
-2024-12-02T08:52:55.510+02:00  INFO 42861 --- [USSD] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2024-12-02T08:52:55.511+02:00  INFO 42861 --- [USSD] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2024-12-02T08:52:56.259+02:00  INFO 42861 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2024-12-02T08:52:56.261+02:00  INFO 42861 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-2024-12-02T08:52:56.296+02:00  INFO 42861 --- [USSD] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.ussd.repository.SessionDataRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
-2024-12-02T08:52:56.297+02:00  INFO 42861 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 30 ms. Found 0 JDBC repository interfaces.
-2024-12-02T08:52:56.309+02:00  INFO 42861 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2024-12-02T08:52:56.310+02:00  INFO 42861 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-12-02T08:52:56.470+02:00  INFO 42861 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 151 ms. Found 1 JPA repository interface.
-2024-12-02T08:52:56.496+02:00  INFO 42861 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2024-12-02T08:52:56.498+02:00  INFO 42861 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2024-12-02T08:52:56.514+02:00  INFO 42861 --- [USSD] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.ussd.repository.SessionDataRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
-2024-12-02T08:52:56.514+02:00  INFO 42861 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
-2024-12-02T08:52:56.824+02:00  WARN 42861 --- [USSD] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [annotationActionEndpointMapping] is declared through a non-static factory method on that class; consider declaring it as static instead.
-2024-12-02T08:52:56.849+02:00  INFO 42861 --- [USSD] [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
-2024-12-02T08:52:57.137+02:00  INFO 42861 --- [USSD] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2024-12-02T08:52:57.152+02:00  INFO 42861 --- [USSD] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-12-02T08:52:57.153+02:00  INFO 42861 --- [USSD] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
-2024-12-02T08:52:57.194+02:00  INFO 42861 --- [USSD] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-12-02T08:52:57.195+02:00  INFO 42861 --- [USSD] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1684 ms
-2024-12-02T08:52:57.363+02:00  INFO 42861 --- [USSD] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-12-02T08:52:57.447+02:00  INFO 42861 --- [USSD] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
-2024-12-02T08:52:57.490+02:00  INFO 42861 --- [USSD] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-12-02T08:52:57.843+02:00  INFO 42861 --- [USSD] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-12-02T08:52:57.882+02:00  INFO 42861 --- [USSD] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-12-02T08:52:58.260+02:00  INFO 42861 --- [USSD] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@58433b62
-2024-12-02T08:52:58.261+02:00  INFO 42861 --- [USSD] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-12-02T08:52:58.312+02:00  WARN 42861 --- [USSD] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2024-12-02T08:52:58.329+02:00  INFO 42861 --- [USSD] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2024-12-03T10:32:01.585+02:00  INFO 738 --- [USSD] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-03T10:32:01.639+02:00  INFO 738 --- [USSD] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-03T10:32:01.906+02:00  WARN 738 --- [USSD] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-03T10:32:02.755+02:00  INFO 738 --- [USSD] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-12-03T10:32:02.796+02:00  INFO 738 --- [USSD] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-03T10:32:02.804+02:00  INFO 738 --- [USSD] [restartedMain] com.example.ussd.UssdApplication         : Started UssdApplication in 7.075 seconds (process running for 8.294)
+2024-12-03T10:33:16.044+02:00  INFO 738 --- [USSD] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-03T10:33:16.045+02:00  INFO 738 --- [USSD] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-03T10:33:16.047+02:00  INFO 738 --- [USSD] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-12-03T10:33:16.088+02:00  WARN 738 --- [USSD] [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public java.util.List<java.lang.String> com.example.ussd.controller.UssdController.getMainMenu(java.util.Map<java.lang.String, java.lang.String>)]
+2024-12-03T10:41:54.747+02:00  INFO 738 --- [USSD] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-03T10:41:54.757+02:00  INFO 738 --- [USSD] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2024-12-03T10:41:54.777+02:00  INFO 738 --- [USSD] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-03T10:41:54.780+02:00  INFO 738 --- [USSD] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-03T10:41:54.786+02:00  INFO 738 --- [USSD] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-12-03T10:46:23.324+02:00  INFO 856 --- [USSD] [restartedMain] com.example.ussd.UssdApplication         : Starting UssdApplication using Java 23.0.1 with PID 856 (/Users/kirengasarah/Documents/GitHub/USSD/target/classes started by kirengasarah in /Users/kirengasarah/Documents/GitHub/USSD)
+2024-12-03T10:46:23.326+02:00 DEBUG 856 --- [USSD] [restartedMain] com.example.ussd.UssdApplication         : Running with Spring Boot v3.4.0, Spring v6.2.0
+2024-12-03T10:46:23.327+02:00  INFO 856 --- [USSD] [restartedMain] com.example.ussd.UssdApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-12-03T10:46:23.420+02:00  INFO 856 --- [USSD] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-03T10:46:23.420+02:00  INFO 856 --- [USSD] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-03T10:46:24.993+02:00  INFO 856 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-12-03T10:46:24.995+02:00  INFO 856 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-12-03T10:46:25.038+02:00  INFO 856 --- [USSD] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.ussd.repository.SessionDataRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-12-03T10:46:25.039+02:00  INFO 856 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 36 ms. Found 0 JDBC repository interfaces.
+2024-12-03T10:46:25.061+02:00  INFO 856 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-12-03T10:46:25.063+02:00  INFO 856 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-03T10:46:25.279+02:00  INFO 856 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 208 ms. Found 1 JPA repository interface.
+2024-12-03T10:46:25.310+02:00  INFO 856 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-12-03T10:46:25.312+02:00  INFO 856 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-12-03T10:46:25.356+02:00  INFO 856 --- [USSD] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.ussd.repository.SessionDataRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-12-03T10:46:25.357+02:00  INFO 856 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2024-12-03T10:46:25.897+02:00  WARN 856 --- [USSD] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [annotationActionEndpointMapping] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2024-12-03T10:46:25.951+02:00  INFO 856 --- [USSD] [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2024-12-03T10:46:26.343+02:00  INFO 856 --- [USSD] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-03T10:46:26.362+02:00  INFO 856 --- [USSD] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-03T10:46:26.363+02:00  INFO 856 --- [USSD] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-03T10:46:26.413+02:00  INFO 856 --- [USSD] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-03T10:46:26.414+02:00  INFO 856 --- [USSD] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2993 ms
+2024-12-03T10:46:26.630+02:00  INFO 856 --- [USSD] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-03T10:46:26.733+02:00  INFO 856 --- [USSD] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-03T10:46:26.777+02:00  INFO 856 --- [USSD] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-03T10:46:27.218+02:00  INFO 856 --- [USSD] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-03T10:46:27.257+02:00  INFO 856 --- [USSD] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-03T10:46:27.796+02:00  INFO 856 --- [USSD] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@28954410
+2024-12-03T10:46:27.798+02:00  INFO 856 --- [USSD] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-03T10:46:27.861+02:00  WARN 856 --- [USSD] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-03T10:46:27.879+02:00  INFO 856 --- [USSD] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 9.1
@@ -636,61 +220,12 @@ Caused by: org.hibernate.AnnotationException: Entity 'com.example.ussd.model.Ses
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2024-12-02T08:52:59.176+02:00  INFO 42861 --- [USSD] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-12-02T08:52:59.228+02:00  INFO 42861 --- [USSD] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-12-02T08:52:59.516+02:00  WARN 42861 --- [USSD] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-12-02T08:53:00.412+02:00  INFO 42861 --- [USSD] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2024-12-02T08:53:00.452+02:00  INFO 42861 --- [USSD] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2024-12-02T08:53:00.461+02:00  INFO 42861 --- [USSD] [restartedMain] com.example.ussd.UssdApplication         : Started UssdApplication in 5.39 seconds (process running for 6.107)
-2024-12-02T08:53:17.557+02:00  INFO 42861 --- [USSD] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-12-02T08:53:17.558+02:00  INFO 42861 --- [USSD] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-12-02T08:53:17.560+02:00  INFO 42861 --- [USSD] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2024-12-02T09:01:57.098+02:00  INFO 42861 --- [USSD] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
-2024-12-02T09:01:57.103+02:00  INFO 42861 --- [USSD] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2024-12-02T09:01:57.115+02:00  INFO 42861 --- [USSD] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2024-12-02T09:01:57.133+02:00  INFO 42861 --- [USSD] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-12-02T09:01:57.137+02:00  INFO 42861 --- [USSD] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2024-12-02T09:01:57.144+02:00  INFO 42861 --- [USSD] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2024-12-02T09:01:57.259+02:00  INFO 42861 --- [USSD] [restartedMain] com.example.ussd.UssdApplication         : Starting UssdApplication using Java 23.0.1 with PID 42861 (/Users/kirengasarah/Documents/GitHub/USSD/target/classes started by kirengasarah in /Users/kirengasarah/Documents/GitHub/USSD)
-2024-12-02T09:01:57.259+02:00 DEBUG 42861 --- [USSD] [restartedMain] com.example.ussd.UssdApplication         : Running with Spring Boot v3.4.0, Spring v6.2.0
-2024-12-02T09:01:57.259+02:00  INFO 42861 --- [USSD] [restartedMain] com.example.ussd.UssdApplication         : No active profile set, falling back to 1 default profile: "default"
-2024-12-02T09:01:57.485+02:00  INFO 42861 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2024-12-02T09:01:57.486+02:00  INFO 42861 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-2024-12-02T09:01:57.491+02:00  INFO 42861 --- [USSD] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.ussd.repository.SessionDataRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
-2024-12-02T09:01:57.491+02:00  INFO 42861 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 JDBC repository interfaces.
-2024-12-02T09:01:57.495+02:00  INFO 42861 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2024-12-02T09:01:57.495+02:00  INFO 42861 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-12-02T09:01:57.499+02:00  INFO 42861 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 1 JPA repository interface.
-2024-12-02T09:01:57.503+02:00  INFO 42861 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2024-12-02T09:01:57.503+02:00  INFO 42861 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2024-12-02T09:01:57.505+02:00  INFO 42861 --- [USSD] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.ussd.repository.SessionDataRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
-2024-12-02T09:01:57.505+02:00  INFO 42861 --- [USSD] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 Redis repository interfaces.
-2024-12-02T09:01:57.561+02:00  WARN 42861 --- [USSD] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [annotationActionEndpointMapping] is declared through a non-static factory method on that class; consider declaring it as static instead.
-2024-12-02T09:01:57.562+02:00  INFO 42861 --- [USSD] [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
-2024-12-02T09:01:57.612+02:00  INFO 42861 --- [USSD] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2024-12-02T09:01:57.615+02:00  INFO 42861 --- [USSD] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-12-02T09:01:57.615+02:00  INFO 42861 --- [USSD] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
-2024-12-02T09:01:57.628+02:00  INFO 42861 --- [USSD] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-12-02T09:01:57.628+02:00  INFO 42861 --- [USSD] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 366 ms
-2024-12-02T09:01:57.668+02:00  INFO 42861 --- [USSD] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-12-02T09:01:57.670+02:00  INFO 42861 --- [USSD] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-12-02T09:01:57.680+02:00  INFO 42861 --- [USSD] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-12-02T09:01:57.681+02:00  INFO 42861 --- [USSD] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
-2024-12-02T09:01:57.702+02:00  INFO 42861 --- [USSD] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3d3bb47a
-2024-12-02T09:01:57.703+02:00  INFO 42861 --- [USSD] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
-2024-12-02T09:01:57.704+02:00  WARN 42861 --- [USSD] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2024-12-02T09:01:57.705+02:00  INFO 42861 --- [USSD] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
-	Database driver: undefined/unknown
-	Database version: 9.1
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2024-12-02T09:01:57.747+02:00  INFO 42861 --- [USSD] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-12-02T09:01:57.763+02:00  INFO 42861 --- [USSD] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-12-02T09:01:57.853+02:00  WARN 42861 --- [USSD] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-12-02T09:01:58.046+02:00  INFO 42861 --- [USSD] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2024-12-02T09:01:58.056+02:00  INFO 42861 --- [USSD] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2024-12-02T09:01:58.060+02:00  INFO 42861 --- [USSD] [restartedMain] com.example.ussd.UssdApplication         : Started UssdApplication in 0.827 seconds (process running for 543.606)
-2024-12-02T09:01:58.061+02:00  INFO 42861 --- [USSD] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-12-03T10:46:28.790+02:00  INFO 856 --- [USSD] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-03T10:46:28.856+02:00  INFO 856 --- [USSD] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-03T10:46:29.118+02:00  WARN 856 --- [USSD] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-03T10:46:29.906+02:00  INFO 856 --- [USSD] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-12-03T10:46:29.943+02:00  INFO 856 --- [USSD] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-03T10:46:29.951+02:00  INFO 856 --- [USSD] [restartedMain] com.example.ussd.UssdApplication         : Started UssdApplication in 7.617 seconds (process running for 9.091)
+2024-12-03T10:48:45.159+02:00  INFO 856 --- [USSD] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-03T10:48:45.159+02:00  INFO 856 --- [USSD] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-03T10:48:45.160+02:00  INFO 856 --- [USSD] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms

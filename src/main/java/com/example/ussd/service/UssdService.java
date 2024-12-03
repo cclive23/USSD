@@ -1,4 +1,7 @@
 package com.example.ussd.service;
+import com.example.ussd.model.SessionData;
+import com.example.ussd.repository.SessionDataRepository;
+
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -8,6 +11,8 @@ public class UssdService {
 
 
     public static final Map<String, List<String>> menu = new HashMap<>();
+
+
 
 
     static {
