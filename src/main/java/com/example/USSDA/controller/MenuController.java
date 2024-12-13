@@ -1,10 +1,11 @@
 package com.example.USSDA.controller;
 
-import com.example.USSDA.model.*;
+
 import com.example.USSDA.service.MenuService;
+import jakarta.servlet.http.HttpSession;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-import com.example.USSDA.repository.*;
+
 
 import java.util.*;
 
@@ -15,35 +16,21 @@ public class MenuController {
 
     @Autowired
     private MenuService menuService;
-    @Autowired
-    private SessionRepository sessionRepository;
 
 
     @PostMapping
-    public String getMenu(@RequestBody Map<String, Integer> requestBody) {
-        int sessionId = requestBody.get("sessionId");
+    public String getMenu(HttpSession session, @RequestBody Map<String, Integer> requestBody) {
         int newRequest = requestBody.get("newRequest");
         int input = requestBody.get("input");
 
-        Session session = sessionRepository.findById(sessionId).orElse(null);
-        if (session == null) {
-            // Create a new session
-            session = new Session();
-            session.setSessionId(sessionId);
-            session.setCurrentMenu(0); // Initialize to the main menu
-
-            sessionRepository.save(session);
-        }
-
-        Integer currentMenu = session.getCurrentMenu();
-        Integer previousMenu = session.getPreviousMenu();
         int paymentChoice=0;
+
+        int currentMenu = session.getAttribute("currentMenu") == null ? 0 : (int) session.getAttribute("currentMenu");
+        int previousMenu = session.getAttribute("previousMenu") == null ? 0 : (int) session.getAttribute("previousMenu");
 
         //For every new request we display main menu and intial currentMenu to main
         if (newRequest == 1) {
-            session.setCurrentMenu(0); // Initialize to the main menu
-            session.setPreviousMenu(0);
-            sessionRepository.save(session);
+            resetSessionToMainMenu(session);// Initialize menu
             return menuService.getMainMenu();
         }
 
@@ -56,9 +43,8 @@ public class MenuController {
                 default:
                     currentMenu = previousMenu;
                     previousMenu = menuService.getParentIdByMenuId(currentMenu);
-                    session.setCurrentMenu(currentMenu);
-                    session.setPreviousMenu(previousMenu);
-                    sessionRepository.save(session);
+                    session.setAttribute("currentMenu", currentMenu);
+                    session.setAttribute("previousMenu", previousMenu);
                     return menuService.getSubMenu(currentMenu);
 
             }
@@ -77,13 +63,8 @@ public class MenuController {
         Integer get= menuService.getMenuIdByParentAndAction(currentMenu, input);
         previousMenu = currentMenu;
         currentMenu = get;
-        session.setCurrentMenu(currentMenu);
-        session.setPreviousMenu(previousMenu);
-        sessionRepository.save(session);
-
-
-
-
+        session.setAttribute("currentMenu", currentMenu);
+        session.setAttribute("previousMenu", previousMenu);
 
 
 
@@ -103,17 +84,11 @@ public class MenuController {
 
 
 
-
-
-
-
-
-
     }
-    private void resetSessionToMainMenu(Session session) {
-        session.setCurrentMenu(0);
-        session.setPreviousMenu(0);
-        sessionRepository.save(session);
+    //To effectively initialize the session menu attributes.
+    private void resetSessionToMainMenu(HttpSession session) {
+        session.setAttribute("currentMenu",0);
+        session.setAttribute("previousMenu",0);
     }
 
 
