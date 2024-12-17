@@ -19,77 +19,38 @@ public class MenuController {
 
 
     @PostMapping
-    public String getMenu(HttpSession session, @RequestBody Map<String, Integer> requestBody) {
-        int newRequest = requestBody.get("newRequest");
-        int input = requestBody.get("input");
+    public String getMenu(HttpSession session, @RequestBody Map<String, String> requestBody) {
+        String newRequest = requestBody.get("newRequest");
+        String input = requestBody.get("input");
 
-        int paymentChoice=0;
+        // Ensure the key is always initialized, even for new requests
+        String key = (session.getAttribute("key") != null) ? session.getAttribute("key").toString() : "menu:0";
 
-        int currentMenu = session.getAttribute("currentMenu") == null ? 0 : (int) session.getAttribute("currentMenu");
-        int previousMenu = session.getAttribute("previousMenu") == null ? 0 : (int) session.getAttribute("previousMenu");
+        if ("1".equals(newRequest)) {
+            // Reset session and initialize key to "menu:0" for a new request
+            resetSession(session);
 
-        //For every new request we display main menu and intial currentMenu to main
-        if (newRequest == 1) {
-            resetSessionToMainMenu(session);// Initialize menu
-            return menuService.getMainMenu();
+            key="menu:0";
+        }else if("0".equals(input)){
+            key=menuService.getPreviousMenu(key);
+            session.setAttribute("key", key);
         }
-
-        //In case user press 0 to go back
-        if( input==0) {
-            switch (previousMenu) {
-                case 0:
-                    resetSessionToMainMenu(session);
-                    return menuService.getMainMenu();
-                default:
-                    currentMenu = previousMenu;
-                    previousMenu = menuService.getParentIdByMenuId(currentMenu);
-                    session.setAttribute("currentMenu", currentMenu);
-                    session.setAttribute("previousMenu", previousMenu);
-                    return menuService.getSubMenu(currentMenu);
-
-            }
+        else {
+            // Append the input to the key
+            key += ":" + input;
+            session.setAttribute("key", key);
         }
-        // Validate the user input
-        if (!menuService.isValidInput(currentMenu, input)) {
-            // Invalid input
-            resetSessionToMainMenu(session);
-            return "Invalid input. Your session has been reset to the main menu.\n" + menuService.getMainMenu();
+        // Call the service method to get the menu
+        if(key.equals("menu:0")){
+            return menuService.getMenu(key);
         }
-
-
-
-
-        //In case it's not a new request it should get the submenus of the menu picked as input
-        Integer get= menuService.getMenuIdByParentAndAction(currentMenu, input);
-        previousMenu = currentMenu;
-        currentMenu = get;
-        session.setAttribute("currentMenu", currentMenu);
-        session.setAttribute("previousMenu", previousMenu);
-
-
-
-        //Check Payment Status
-        if(menuService.getMenuPaymentStatus(currentMenu)){
-
-            return menuService.getPaymentDescription(currentMenu)+"\n" +
-                    "1. Pay with Airtime\n"
-                    + "2. Pay with MoMo\n"+
-                    "0.Back";
-        }
-
-
-
-        return menuService.getSubMenu(currentMenu)+"\n0. Back";
-
-
-
-
+        return menuService.getMenu(key)+"\n0.Back";
     }
-    //To effectively initialize the session menu attributes.
-    private void resetSessionToMainMenu(HttpSession session) {
-        session.setAttribute("currentMenu",0);
-        session.setAttribute("previousMenu",0);
+
+    public void resetSession(HttpSession session) {
+        session.setAttribute("key", "menu:0");
     }
+
 
 
 
